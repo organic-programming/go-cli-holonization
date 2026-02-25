@@ -1,3 +1,21 @@
+---
+# Cartouche v1
+title: "go-cli-holonization — CLI Adoption SDK"
+author:
+  name: "B. ALTER"
+  copyright: "© 2026 Benoit Pereira da Silva"
+created: 2026-02-25
+revised: 2026-02-25
+lang: en-US
+origin_lang: en-US
+translation_of: null
+translator: null
+access:
+  humans: true
+  agents: true
+status: draft
+---
+
 # go-cli-holonization
 
 **Patterns, documentation, and examples for adopting existing CLI tools
