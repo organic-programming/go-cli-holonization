@@ -1,6 +1,13 @@
 # go-cli-holonization
 
-**Go SDK for adopting existing CLI tools into the Organic Programming ecosystem.**
+**Patterns, documentation, and examples for adopting existing CLI tools
+as holons in Go.**
+
+This is not a standalone library. All code here builds on top of
+[go-holons](https://github.com/organic-programming/go-holons), the core
+Go SDK for building holons. **go-cli-holonization** captures the specific
+knowledge, conventions, and reusable patterns needed when the domain logic
+lives in an external binary rather than in Go code.
 
 ---
 
@@ -157,9 +164,18 @@ Human writes wrapper             Holonizer generates wrapper
 
 ## Status
 
-🚧 **Early stage** — this repository currently contains the vision and
-design direction. Implementation will begin with the first concrete CLI
-adoption use case.
+🚧 **Not implemented yet** — this repository currently contains only the
+vision and design direction. Upcoming content will include:
+
+- **Documentation** — step-by-step guides for adopting a CLI tool as a holon.
+- **Examples** — reference adoptions (e.g. `ffprobe`, `git`) with full
+  `.proto`, wrapper, and tests.
+- **Patterns** — reusable recipes for common adoption scenarios
+  (JSON output, streaming, error mapping).
+
+All implementation code will use
+[go-holons](https://github.com/organic-programming/go-holons) as its
+foundation.
 
 ---
 
